@@ -34,9 +34,9 @@ for k = -N:-1,			% bucla pentru termenii negativi
 clear;					% stergem memoria
 figure(2); clf;			
 
-P = 40; wo = 2*pi/P;			
+P = 4; wo = 2*pi/P;			
 
-D0 = 16;				
+D0 = 0.5;				
 
 i = 1;					% vector pentru a memora Dn si w
 
